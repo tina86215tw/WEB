@@ -1,0 +1,118 @@
+body{
+  margin: 0;
+  max-width: 1280px;
+  max-height: 681px;
+  margin-right: auto;
+  margin-left: auto;
+  background: #000000;
+}
+
+#point{
+  cursor: pointer;
+}
+#pic{
+  opacity: 0.5;
+}
+#pic:hover{
+  opacity: 1.0;
+}
+
+.whole{
+  margin-left: auto;
+  margin-right: auto;
+  width: 908.8px;
+  height: 681px;
+  background-image: url(./background.png);
+  background-color: #E6E6E6;
+  background-repeat:no-repeat;
+
+}
+
+.btn{
+  margin-left: 25px;
+  margin-top: 32.66px;
+  width: 54.67px;
+  height: 54.67px;
+  -webkit-filter: drop-shadow(3px 3px 5px rgba(0, 0, 0, 0.75));
+  filter: drop-shadow(3px 3px 5px rgba(0, 0, 0, 0.75));
+}
+.btn:hover{
+  position: relative;
+  left: 2px;
+  top: -2px;
+  z-index:0;
+  -webkit-filter: drop-shadow(7px 7px 5px rgba(0, 0, 0, 0.75));
+  filter: drop-shadow(7px 7px 5px rgba(0, 0, 0, 0.75));
+}
+
+.title{
+  width: 327.5px;
+  height: 67.9px;
+  /*margin-top: 20.6px;*/
+  margin-right: 390.3px;
+  margin-top: 64.6px;
+  float: right;
+}
+
+.images{
+  margin-top: 76.32px;
+  margin-left: 105.08px;
+}
+
+.bigimage{
+  margin: 0 26px 5px 20px;
+  width: 244.24px;
+  height: 323.76px;
+  float: left;
+  box-shadow: 5px 5px 5px #000000;
+}
+.smallimage{
+  margin: 0 12.8px 5px 12.8px;
+  width: 119.28px;
+  height: 158.33px;
+  float: left;
+  box-shadow: 5px 5px 5px #000000;
+}
+.horimage{
+  margin: 0 12.8px 10px 12.8px;
+  width: 210.28px;
+  height: 158.33px;
+  float: left;
+  box-shadow: 5px 5px 5px #000000;
+}
+.square{
+    margin: 0 12.8px 5px 12.8px;
+    width: 119.28px;
+    height: 158.33px;
+    background-color: #B3322C;
+    float: left;
+}
+
+.ifirline{
+  margin: 0 0 10px 0;
+  width: 500px;
+  height: 158.33px;
+  float: left;
+}
+
+.isecline{
+  margin: 0 0 5px 0;
+  width: 500px;
+  height: 158.33px;
+  float: left;
+}
+
+.ithrline{
+  margin: 10px 0 0 0px;
+  width: 770px;
+  height: 158.33px;
+  float: left;
+}
+
+.horimage3{
+  margin: 0 12.8px 10px 12.8px;
+  width: 278.5px;
+  height: 158.33px;
+  float: left;
+  box-shadow: 5px 5px 5px #000000;
+}

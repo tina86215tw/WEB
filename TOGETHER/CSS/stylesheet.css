@@ -1,0 +1,88 @@
+body{
+  margin: 0;
+  max-width: 1280px;
+  max-height: 1500px;
+  margin-right: auto;
+  margin-left: auto;
+  background: #65655E;
+
+}
+
+#point{
+  cursor: pointer;
+}
+
+.whole{
+  margin-top: 0;
+  width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(./background.png);
+  background-color: #FFA69E;
+  background-repeat:no-repeat;
+}
+
+.photo{
+  width: 270px;
+  height: 374px;
+  float: left;
+}
+.photo2{
+  width: 500px;
+  height: 374px;
+  float: left;
+}
+.photo4{
+  width: 665px;
+  height: 374px;
+  float: left;
+}
+
+p{
+  margin: 0;
+  margin-bottom: 24.138px;
+  font-size: 48px;
+  font-family: Arial;
+  color: #5E6472;
+  font-weight: bold;
+}
+.i{
+  margin-left: 10.02px;
+}
+.name{
+  width: 26.566px;
+  margin-left: 20px;
+  float: left;
+}
+
+.main{
+  padding-top: 63px;
+  width: 1280px;
+  height: 437px;
+}
+.PN{
+  margin-left: 214px;
+  float: left;
+}
+.YC{
+  margin-left: 110.45px;
+  float: left;
+}
+
+
+.second{
+  padding-top: 63px;
+  padding-left: 83.122px;
+  width: 1280px;
+  height: 437px;
+}
+.second img{
+  margin-right: 28px;
+}
+
+.third{
+  padding-top: 63px;
+  padding-left: 148px;
+  width: 1280px;
+  height: 437px;
+}

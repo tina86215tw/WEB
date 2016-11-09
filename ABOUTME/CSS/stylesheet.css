@@ -1,0 +1,98 @@
+body{
+  margin: 0;
+  max-width: 1280px;
+  max-height: 681px;
+  margin-right: auto;
+  margin-left: auto;
+  background: #000000;
+}
+
+#point{
+  cursor: pointer;
+}
+#point:hover{
+  position: relative;
+  left: 2px;
+  top: -2px;
+  z-index:0;
+  -webkit-filter: drop-shadow(7px 7px 5px rgba(0, 0, 0, 0.75));
+  filter: drop-shadow(7px 7px 5px rgba(0, 0, 0, 0.75));
+}
+
+.whole{
+  margin-left: auto;
+  margin-right: auto;
+  width: 908.8px;
+  height: 681px;
+  background-image: url(./background.png);
+  background-color: #E6E6E6;
+  background-repeat:no-repeat;
+
+}
+
+
+.btn{
+  margin-left: 25px;
+  margin-top: 32.66px;
+  width: 54.67px;
+  height: 54.67px;
+  -webkit-filter: drop-shadow(3px 3px 5px rgba(0, 0, 0, 0.75));
+  filter: drop-shadow(3px 3px 5px rgba(0, 0, 0, 0.75));
+  float: left;
+}
+
+
+.title{
+  width: 327.5px;
+  height: 67.9px;
+  margin-left: 99.4px;
+  margin-top: 64.6px;
+  float: left;
+}
+
+.content{
+  width: 443.182px;
+  height: 203.77px;
+  margin-top: 45.72px;
+  margin-left: 122.72px;
+  float: left;
+}
+
+.photo{
+  width: 234.3px;
+  height: 234.3px;
+  margin-right: 56.8px;
+  float: right;
+}
+
+.brain{
+  width: 355px;
+  height: 268.38px;
+  margin-left: 71px;
+  float: left;
+  -webkit-filter: drop-shadow(7px 7px 5px rgba(0, 0, 0, 0.75));
+  filter: drop-shadow(7px 7px 5px rgba(0, 0, 0, 0.75));
+}
+
+.paragraph{
+  width: 360px;
+  height: 145.05px;
+  margin-top: 70px;
+  float: left;
+}
+
+.link{
+  width: 150px;
+  height: 60px;
+  margin-top: 10px;
+  margin-right: 100px;
+  float: right;
+}
+.linkbtn{
+  width: 60px;
+  height: 60px;
+  margin-left: 15px;
+  float: left;
+  -webkit-filter: drop-shadow(3px 3px 5px rgba(0, 0, 0, 0.75));
+  filter: drop-shadow(3px 3px 5px rgba(0, 0, 0, 0.75));
+}
